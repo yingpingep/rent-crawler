@@ -11,7 +11,7 @@ def GetDetail(url):
 
     global gList
     if url == 'done':
-        f = open('ouput.txt', 'w', encoding='utf8')    
+        f = open('output.txt', 'w', encoding='utf8')    
         for line in gList:
             f.write(line+ '\n')
         f.close()
